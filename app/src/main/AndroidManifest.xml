@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="medical.medicalapps">
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/medalert"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeverActivity"
+            android:label="@string/title_activity_fever"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StomachActivity"
+            android:label="@string/title_activity_stomach"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateActivity"
+            android:label="@string/title_activity_update"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlaramActivity"
+            android:label="@string/title_activity_alaram"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GeneralActivity"
+            android:label="@string/title_activity_general"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HeadActivity"
+            android:label="@string/title_activity_head"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ColdActivity"
+            android:label="@string/title_activity_cold"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClockActivity"
+            android:label="@string/title_activity_clock"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <receiver android:name=".AlarmReceiver" android:process=":remote" />
+    </application>
+
+</manifest>

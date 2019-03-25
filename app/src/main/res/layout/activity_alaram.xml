@@ -1,0 +1,247 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_color"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/labelHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/str_prescription_head"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="0.4"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Prescription"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+           <Button
+                android:id="@+id/btnPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Your Prescription" >
+            </Button>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="0.4"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_tablename"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/txtTablet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_style"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="0.4"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelDosage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_dosage"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/txtDosage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_style"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="0.4"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_time"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <CheckBox
+                    android:id="@+id/txtMorning"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/layoutText"
+                    android:layout_marginTop="11dp"
+                    android:layout_weight="0.3"
+                    android:text="Morning"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/txtAfter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/layoutText"
+                    android:layout_marginTop="11dp"
+                    android:layout_weight="0.4"
+                    android:text="After Noon"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/txtNight"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/layoutText"
+                    android:layout_marginTop="11dp"
+                    android:layout_weight="0.3"
+                    android:text="Night"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="0.4"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <TextView
+                android:id="@+id/labelAdd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Add Tablet"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:onClick="showAlaram"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:layout_weight="0.5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/labelAlaram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_alaram"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:onClick="showAlaram"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

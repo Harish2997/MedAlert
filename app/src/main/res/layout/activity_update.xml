@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_color"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/logoid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:paddingBottom="45dp"
+                        android:paddingTop="15dp"
+                        android:text="Add Patient Problem"
+                        android:textColor="@color/black"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="6dp"
+                            android:text="Email Address"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/twenty"
+                            android:textStyle="bold" />
+
+
+                        <EditText
+                            android:id="@+id/txtEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="@dimen/ten"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/edit_style"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/red"
+                            android:textEditSuggestionItemLayout="@color/blue"
+                            android:textSize="@dimen/twenty"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/t11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="6dp"
+                            android:text="Name"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/twenty"
+                            android:textStyle="bold" />
+
+
+                        <EditText
+                            android:id="@+id/txtName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_marginLeft="90dp"
+                            android:layout_marginRight="@dimen/ten"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/edit_style"
+                            android:inputType="text"
+                            android:textColor="@color/red"
+                            android:textEditSuggestionItemLayout="@color/blue"
+                            android:textSize="@dimen/twenty"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/t12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="6dp"
+                            android:text="No.Of.Days"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/twenty"
+                            android:textStyle="bold" />
+
+
+                        <EditText
+                            android:id="@+id/txtDays"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="@dimen/ten"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/edit_style"
+                            android:inputType="number"
+                            android:textColor="@color/red"
+                            android:textEditSuggestionItemLayout="@color/blue"
+                            android:textSize="@dimen/twenty"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/t22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:paddingLeft="6dp"
+                            android:text="Symptoms"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/twenty"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/txtProblem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:layout_marginRight="@dimen/ten"
+                            android:layout_marginTop="30dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_style"
+                            android:ems="10"
+                            android:inputType="textMultiLine" />
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/thirty"
+                        android:layout_marginRight="@dimen/thirty"
+                        android:layout_marginTop="30dp"
+                        android:background="@color/gray"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Submit"
+                        android:onClick="updateAction"
+                        android:textColor="@color/brown"
+                        android:textSize="@dimen/thirty" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

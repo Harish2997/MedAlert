@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">மெட் அலெர்ட்</string>
+
+    <string name="username">பயனர்பெயர்</string>
+    <string name="password"> கடவுச்சொல் </string>
+
+    <string name="submit_btn"> உள் நுழை</string>
+    <string name="submit_new">புதிய கணக்கு தொடங்க</string>
+    <string name="str_submit1">சமர்ப்பிக்க</string>
+
+    <string name="str_submit">பதிவு செய்</string>
+
+    <string name="str_firstname">முதல் பெயர்</string>
+    <string name="str_lastname">கடைசி பெயர்</string>
+    <string name="str_email">மின்னஞ்சல்</string>
+    <string name="str_password">கடவுச்சொல்</string>
+    <string name="str_retype">உறுதிப்படுத்து</string>
+    <string name="str_mobile">தொலைபேசி எண்</string>
+    <string name="str_address">முகவரி</string>
+    <string name="str_age">வயது</string>
+    <string name="str_gender">பாலினம்</string>
+    <string name="str_blood">இரத்த வகை</string>
+    <string name="str_city">நகரம்</string>
+
+    <string name="str_allergies">ஒவ்வாமை மருந்து</string>
+    <string name="str_select_allergies">ஒவ்வாமை மருந்துகள்</string>
+    <string name="str_yes">ஆம்</string>
+    <string name="str_no">இல்லை</string>
+
+
+    <string name="str_register_head">பதிவு படிவம்</string>
+
+
+    <string-array name="home">
+        <item>பொது மருந்துகள்</item>
+        <item>மருந்து பதிவேற்ற</item>
+        <item>நீரிழிவு</item>
+        <item>இரத்த அழுத்தம்</item>
+        <item>வெளியேறு</item>
+    </string-array>
+
+
+
+
+</resources>

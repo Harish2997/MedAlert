@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">MedAlert</string>
+    <string name="welcome_msg">Medical System</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="submit_btn">Sign In</string>
+    <string name="submit_new">New User Sign Up?</string>
+
+
+    <string name="str_firstname">First Name</string>
+    <string name="str_lastname">Last Name</string>
+    <string name="str_email">Email Id</string>
+    <string name="str_password">Password</string>
+    <string name="str_retype">Retype</string>
+    <string name="str_mobile">Mobile</string>
+    <string name="str_age">Age</string>
+    <string name="str_gender">Gender</string>
+    <string name="str_blood">Blood Group</string>
+    <string name="str_city">City</string>
+    <string name="str_allergies">Allergic Medicine</string>
+    <string name="str_select_allergies">Select Allergic Medicine</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string>
+
+    <string name="str_address">Address</string>
+    <string name="str_submit">Submit</string>
+
+    <string name="str_register_head">Registration Form</string>
+    <string name="str_home_head">MEDICAL HOME</string>
+    <string name="str_prescription_head">PRESCRIPTION DETAIL</string>
+
+    <string name="str_general">General Drug</string>
+    <string name="str_prescription">Add Prescription</string>
+    <string name="str_sugar">Blood Sugar(Diabetes)</string>
+    <string name="str_pressure">Blood Pressure</string>
+
+
+    <string name="str_tablename">Enter Tablet Name</string>
+    <string name="str_dosage">Dosage</string>
+    <string name="str_time">Time Interval</string>
+
+    <string name="str_alaram">Set Alarm</string>
+
+    <string name="time_pick">Pick the time and press save button</string>
+    <string name="time_save">Save</string>
+    <string name="time_selected"></string>
+    <string name="time_current">The Time is:</string>
+
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>English</item>
+        <item>Tamil</item>
+    </string-array>
+
+    <string-array name="blood">
+        <item>Blood Group</item>
+        <item>Oâˆ’</item>
+        <item>O+</item>
+        <item>Aâˆ’</item>
+        <item>A+</item>
+        <item>Bâˆ’</item>
+        <item>B+</item>
+        <item>ABâˆ’</item>
+        <item>AB+</item>
+    </string-array>
+
+    <string-array name="home">
+        <item>GENERAL DRUGS</item>
+        <item>ADD PRESCRIPTION</item>
+        <item>BLOOD SUGAR(DIABETES)</item>
+        <item>BLOOD PRESSURE</item>
+        <item>LOGOUT</item>
+    </string-array>
+    <string-array name="alergicmedicine">
+        <item>hydroxyzine</item>
+        <item>Xyzal</item>
+        <item>levocetirizine</item>
+        <item>Atarax</item>
+        <item>Vistaril</item>
+        <item>Acthar</item>
+        <item>Hyzine</item>
+        <item>Doxylamine</item>
+        <item>Zymine</item>
+        <item>Corticotropin</item>
+        <item>Ala-Hist IR</item>
+        <item>Phenylephrine / pyrilamine</item>
+        <item>Dexbrompheniramine</item>
+        <item>Triprolidine</item>
+        <item>Aldex D</item>
+        <item>Equate Sleep Aid</item>
+        <item>Pyril D</item>
+        <item>Aldex AN</item>
+        <item>Doxytex</item>
+        <item>H.P. Acthar Gel</item>
+        <item>Tripohist</item>
+        <item>Unisom SleepTabs</item>
+        <item>Aldex AN Chewable</item>
+        <item>Care One Sleep Aid</item>
+        <item>Pyril D</item>
+        <item>chlophedianol / triprolidine</item>
+    </string-array>
+
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_fever">FeverActivity</string>
+    <string name="title_activity_stomach">StomachActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_alaram">AlaramActivity</string>
+    <string name="title_activity_general">GeneralActivity</string>
+    <string name="title_activity_head">HeadActivity</string>
+    <string name="title_activity_cold">ColdActivity</string>
+
+    <string name="title_activity_splash_screen">MedAlert</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_clock">ClockActivity</string>
+</resources>
